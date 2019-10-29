@@ -46,6 +46,7 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
 *   Vex：可以在虚拟环境中执行命令。[官网](https://github.com/sashahart/vex)
 *   virtualenv：创建独立 Python 环境的工具。[官网](https://pypi.python.org/pypi/virtualenv)
 *   virtualenvwrapper：virtualenv 的一组扩展。[官网](https://pypi.python.org/pypi/virtualenvwrapper)
+*   buildout：在隔离环境初始化后使用声明性配置管理。[官网](http://www.buildout.org/en/latest)
 
 ### 包管理
 
@@ -53,7 +54,7 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
 
 *   pip：Python 包和依赖关系管理工具。[官网](https://pip.pypa.io/)
 *   pip-tools：保证 Python 包依赖关系更新的一组工具。[官网](https://github.com/nvie/pip-tools)
-*   pipenv：Pyhton 官方推荐的新一代包管理工具。[官网](https://github.com/pypa/pipenv)
+*   pipenv：Python 官方推荐的新一代包管理工具。[官网](https://github.com/pypa/pipenv)
 *   poetry: 可完全取代 setup.py 的包管理工具。[官网](https://poetry.eustace.io)
 *   conda：跨平台，Python 二进制包管理工具。[官网](https://github.com/conda/conda/)
 *   Curdling：管理 Python 包的命令行工具。[官网](http://clarete.li/curdling/)
@@ -73,6 +74,7 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
 打包为可执行文件以便分发。
 
 *   PyInstaller：将 Python 程序转换成独立的执行文件（跨平台）。[官网](https://github.com/pyinstaller/pyinstaller)
+*   cx_Freeze：将python程序转换为带有一个动态链接库的可执行文件。[官网](https://cx-freeze.readthedocs.io/en/latest/index.html)
 *   dh-virtualenv：构建并将 virtualenv 虚拟环境作为一个 Debian 包来发布。[官网](http://dh-virtualenv.readthedocs.org/)
 *   Nuitka：将脚本、模块、包编译成可执行文件或扩展模块。[官网](http://nuitka.net/)
 *   py2app：将 Python 脚本变为独立软件包（Mac OS X）。[官网](http://pythonhosted.org/py2app/)
@@ -325,7 +327,7 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
 *   GeoIP：MaxMind GeoIP Legacy 数据库的 Python API。[官网](https://github.com/maxmind/geoip-api-python)
 *   geojson：GeoJSON 的 Python 绑定及工具。[官网](https://github.com/frewsxcv/python-geojson)
 *   geopy：Python 地址编码工具箱。[官网](https://github.com/geopy/geopy)
-*   pygeoip：纯 Python GeoIP API。[官网](https://github.com/appliedsec/pygeoip)
+*   GeoIP2：GeoIP2 Webservice 客户端与数据库 Python API。[官网](https://github.com/maxmind/GeoIP2-python)
 *   django-countries：一个 Django 应用程序，提供用于表格的国家选择功能，国旗图标静态文件以及模型中的国家字段。[官网](https://github.com/SmileyChris/django-countries)
 
 ### HTTP
@@ -539,7 +541,7 @@ Python 实现的数据库。
 *   django-compressor：将链接和内联的 JavaScript 或 CSS 压缩到一个单独的缓存文件中。[官网](https://github.com/django-compressor/django-compressor)
 *   django-storages：一个针对 Django 的自定义存储后端的工具集合。[官网](http://django-storages.readthedocs.org/en/latest/)
 *   fanstatic：打包、优化，并且把静态文件依赖作为 Python 的包来提供。[官网](http://www.fanstatic.org/en/latest/)
-*   File Conveyor：一个后台驻留的程序，用来发现和同步文件到 CDNs, S3 和 FTP。[官网](http://fileconveyor.org/)
+*   File Conveyor：一个后台驻留的程序，用来发现和同步文件到 CDNs, S3 和 FTP。[官网](https://wimleers.com/fileconveyor/)
 *   Flask-Assets：帮你将 web 资源整合到你的 Flask app 中。[官网](http://flask-assets.readthedocs.org/en/latest/)
 *   jinja-assets-compressor：一个 Jinja 扩展，用来编译和压缩你的资源。[官网](https://github.com/jaysonsantos/jinja-assets-compressor)
 *   webassets：为你的静态资源打包、优化和管理生成独一无二的缓存 URL。[官网](http://webassets.readthedocs.org/en/latest/)
@@ -611,6 +613,7 @@ Python 实现的数据库。
 爬取网络站点的库
 
 *   Scrapy：一个快速高级的屏幕爬取及网页采集框架。[官网](http://scrapy.org/)
+*   ScrapydWeb：一个用于 Scrapyd 集群管理的全功能 web UI，支持 Scrapy 日志分析和可视化，自动打包，定时器任务和邮件通知等特色功能。[官网](https://github.com/my8100/scrapydweb)
 *   cola：一个分布式爬虫框架。[官网](https://github.com/chineking/cola)
 *   Demiurge：基于 PyQuery 的爬虫微型框架。[官网](https://github.com/matiasb/demiurge)
 *   feedparser：通用 feed 解析器。[官网](http://pythonhosted.org/feedparser/)
@@ -1107,6 +1110,7 @@ Python 实现的算法和设计模式。
 *   [algorithms](http://hao.jobbole.com/algorithms/)：一个 Python 算法模块。[官网](https://github.com/nryoung/algorithms) 
 *   python-patterns：Python 设计模式的集合。[官网](https://github.com/faif/python-patterns)
 *   sortedcontainers：快速，纯 Python 实现的 SortedList，SortedDict 和 SortedSet 类型。[官网](http://www.grantjenks.com/docs/sortedcontainers/)
+*   Python：使用Python实现的算法大全。[官网](https://github.com/TheAlgorithms/Python)
 
 ### 编辑器插件
 
